@@ -30,32 +30,43 @@ public class Main {
         }
     }
 
-    public static void chamarApiRest(String apiUrl) {
+    public static void chamarApiRest(String urlString) {
         try {
-            URL url = new URL(apiUrl);
-            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
-            connection.setRequestMethod("GET");
+            // Cria um objeto URL a partir da string fornecida
+            URL url = new URL(urlString);
+            
+            // Abre uma conexão HTTP com a URL
+            HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+            
+            // Define o método de requisição como "GET"
+            conn.setRequestMethod("GET");
 
-            int responseCode = connection.getResponseCode();
+            // Obtém o código de resposta da requisição
+            int responseCode = conn.getResponseCode();
+            
+            // Verifica se o código de resposta é HTTP_OK (200)
             if (responseCode == HttpURLConnection.HTTP_OK) {
-                BufferedReader in = new BufferedReader(new InputStreamReader(connection.getInputStream()));
+                // Cria um BufferedReader para ler a resposta da requisição
+                BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream()));
                 String inputLine;
                 StringBuilder response = new StringBuilder();
 
+                // Lê a resposta linha por linha e adiciona ao StringBuilder
                 while ((inputLine = in.readLine()) != null) {
                     response.append(inputLine);
                 }
+                // Fecha o BufferedReader
                 in.close();
 
+                // Imprime a resposta completa no console
                 System.out.println(response.toString());
             } else {
+                // Imprime uma mensagem indicando que a requisição não funcionou
                 System.out.println("GET request not worked");
             }
         } catch (IOException e) {
+            // Captura e imprime o stack trace de qualquer IOException
             e.printStackTrace();
         }
     }
-
-    
-    
 }

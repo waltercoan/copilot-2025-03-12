@@ -35,3 +35,9 @@
 ```shell
 gere um método que receba uma URL de uma API REST, faça um chamada HTTP e imprima o retorno em formato de texto
 ```
+```shell
+@workspace /explain  descreva o método chamarAPIRest
+@workspace transforme o código do método gerarArquivoCSV para python
+@workspace /explain gerer a descrição no código do método chamarAPIRest
+```
+
