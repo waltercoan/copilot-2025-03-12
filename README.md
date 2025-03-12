@@ -38,11 +38,17 @@ gere um método que receba uma URL de uma API REST, faça um chamada HTTP e impr
 ```shell
 @workspace /explain  descreva o método chamarAPIRest
 @workspace transforme o código do método gerarArquivoCSV para python
-@workspace /explain gerer a descrição no código do método chamarAPIRest
+@workspace /explain gere a descrição no código do método chamarAPIRest
 por favor adicione a dependencia do junit jupiter no arquivo pom.xml
 
 @workspace /tests gere um teste de unidade para o método verificarParouimpar dentro do pacote de test
 
 @workspace /fix verifique o codigo da classe de teste
 ```
+
+### Exercicio 3 prompts
+```shell
+definir um método para criar validação para email. O método deve ser chamado validarEmail e deve receber um parâmetro do tipo String com o email a ser validado. O método deve retornar um boolean indicando se o email é válido ou não. O método main deve chamar o método validarEmail e passar o email. Ao começar a digitar a função ‘validarEmail’, o Copilot pode sugerir o uso de expressões regulares para validação.
+```
+
 
