@@ -19,4 +19,15 @@ public class Main {
         return soma / numeros.length;
     }
 
+    //define um método que recebe por parametro uma lista de nomes e imprime em tela
+    public static void imprimirNomes(String[] nomes) {
+        for (String nome : nomes) {
+            System.out.println(nome);
+        }
+    }
+    //defina um método que recebe por parametro uma lista de nomes e imprime em tela utilizam o método stream
+    public static void imprimirNomesStream(String[] nomes) {
+        java.util.Arrays.stream(nomes).forEach(System.out::println);
+    }
+
 }
