@@ -11,6 +11,7 @@ import java.net.URL;
 public class Main {
     public static void main(String[] args) {
         gerarArquivoCSV("dados.csv");
+        System.out.println(verificarParOuImpar(5)); // Exemplo de uso
     }
 
     //definir uma função java para gerar um arquivo .csv com alguns dados dentro
@@ -69,4 +70,13 @@ public class Main {
             e.printStackTrace();
         }
     }
+    
+    public static String verificarParOuImpar(int numero) {
+        if (numero % 2 == 0) {
+            return "Par";
+        } else {
+            return "Ímpar";
+        }
+    }
+    
 }
