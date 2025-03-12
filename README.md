@@ -26,4 +26,9 @@
 // define um método que recebe por parametro uma lista de nomes e imprime em tela
 // defina um método que recebe por parametro uma lista de nomes e imprime em tela utilizam o método stream
 ```
-
+### Exercicio 2 prompts
+```shell
+// definir uma função java para gerar um arquivo .csv com alguns dados dentro
+// Criar um arquivo CSV com o nome especificado
+// fechar o arquivo
+```
