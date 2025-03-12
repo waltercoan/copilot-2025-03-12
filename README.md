@@ -15,6 +15,7 @@
 ## Introdução ao Github Copilot
 [Folha de dicas](https://docs.github.com/en/copilot/using-github-copilot/copilot-chat/github-copilot-chat-cheat-sheet?tool=vscode)
 
+[Exemplos de Prompts](https://docs.github.com/en/copilot/using-github-copilot/copilot-chat/getting-started-with-prompts-for-copilot-chat)
 
 ### Exercicio 1 prompts
 ```shell
@@ -25,3 +26,4 @@
 // define um método que recebe por parametro uma lista de nomes e imprime em tela
 // defina um método que recebe por parametro uma lista de nomes e imprime em tela utilizam o método stream
 ```
+
