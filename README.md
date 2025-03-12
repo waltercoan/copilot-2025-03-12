@@ -32,3 +32,6 @@
 // Criar um arquivo CSV com o nome especificado
 // fechar o arquivo
 ```
+```shell
+gere um método que receba uma URL de uma API REST, faça um chamada HTTP e imprima o retorno em formato de texto
+```
