@@ -59,4 +59,11 @@ definir um método para criar validação para email. O método deve ser chamado
 gere uma validação para impedir que o código seja executado caso o parametro e-mail esteja em branco ou vazio
 ```
 
+### Gerar dockerfile
+```shell
+@workspace gere um arquivo Dockerfile multi stage para transformar esta aplicação em uma imagem docker
+
+@workspace /explain  #file:Dockerfile:18-18 
+```
+
 

@@ -30,4 +30,8 @@ public class Main {
         java.util.Arrays.stream(nomes).forEach(System.out::println);
     }
 
+    // define um método que recebe dois números inteiros como parâmetro, faz a soma e retorna o resultado
+    public static int somar(int num1, int num2) {
+        return num1 + num2;
+    }
 }
