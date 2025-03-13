@@ -81,3 +81,8 @@ chamado conectarBanco e deve receber um parâmetro do tipo String com a URL de c
 retornar um objeto do tipo Connection. O método main deve chamar o método conectarBanco e passar a URL
 de conexão "jdbc:sqlserver://localhost:1433;databaseName=exemplo" como parâmetro.
 ```
+
+### Exercicio 5 SQL
+- Tabela Usuario com os campos: nome, telefone, endereco, numero
+- Tabela Publicacao com os campos: texto, usuario associado, data, numero de likes
+- Tabela Comentario com os campos: publicacao associada, texto, data
