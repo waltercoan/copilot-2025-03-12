@@ -65,5 +65,11 @@ gere uma validação para impedir que o código seja executado caso o parametro 
 
 @workspace /explain  #file:Dockerfile:18-18 
 ```
-
-
+### Exercicio 4 prompts
+```shell
+ definir um método para criar uma validação para CPF. O método deve ser chamado validarCPF
+e deve receber um parâmetro do tipo String com o CPF a ser validado. O método deve retornar um
+boolean indicando se o CPF é válido ou não. O método main deve chamar o método validarCPF e passar
+o CPF "123.456.789-10" como parâmetro. O Copilot pode ajudar a sugerir a criação do método para
+validação de CPF
+```
