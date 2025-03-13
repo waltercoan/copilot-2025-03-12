@@ -1,0 +1,20 @@
+@startuml
+class Cliente {
+    Long id
+    String nome
+    String endereco
+    String telefone
+
+    +Cliente()
+    +Cliente(Long id, String nome, String endereco, String telefone)
+    +Long getId()
+    +void setId(Long id)
+    +String getNome()
+    +void setNome(String nome)
+    +String getEndereco()
+    +void setEndereco(String endereco)
+    +String getTelefone()
+    +void setTelefone(String telefone)
+    +String toString()
+}
+@enduml

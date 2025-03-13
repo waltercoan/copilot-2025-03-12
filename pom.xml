@@ -11,6 +11,7 @@
 
     <modules>
         <module>copilot-dia1</module>
+        <module>spring_copilot</module>
     </modules>
 
 </project>

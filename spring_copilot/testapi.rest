@@ -1,0 +1,38 @@
+### Get all clients
+GET http://localhost:8080/api/clientes
+Accept: application/json
+
+###
+
+### Get client by ID
+GET http://localhost:8080/api/clientes/1
+Accept: application/json
+
+###
+
+### Create a new client
+POST http://localhost:8080/api/clientes
+Content-Type: application/json
+
+{
+  "nome": "Novo Cliente",
+  "endereco": "Rua Nova, 123",
+  "telefone": "123456789"
+}
+
+###
+
+### Update an existing client
+PUT http://localhost:8080/api/clientes/1
+Content-Type: application/json
+
+{
+  "nome": "Cliente Atualizado",
+  "endereco": "Rua Atualizada, 456",
+  "telefone": "987654321"
+}
+
+###
+
+### Delete a client
+DELETE http://localhost:8080/api/clientes/1

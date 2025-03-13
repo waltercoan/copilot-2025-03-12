@@ -288,3 +288,8 @@ Swing. Swing refere-se ao kit de ferramentas do widget da GUI para criar aplicat
 
 @workspace gere o código necessário para movimentar a Snake no jogo
 ```
+
+### Exercicio Spring Boot
+[Spring boot extension pack](https://marketplace.visualstudio.com/items?itemName=vmware.vscode-boot-dev-pack)
+
+[Extensão REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
