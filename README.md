@@ -12,6 +12,10 @@
 [Extension Pack for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
 [Github Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
 
+
+[Github Copilot WEB](https://github.com/copilot)
+
+
 ## Introdução ao Github Copilot
 [Folha de dicas](https://docs.github.com/en/copilot/using-github-copilot/copilot-chat/github-copilot-chat-cheat-sheet?tool=vscode)
 
