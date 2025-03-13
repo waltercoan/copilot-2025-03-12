@@ -86,3 +86,8 @@ de conexão "jdbc:sqlserver://localhost:1433;databaseName=exemplo" como parâmet
 - Tabela Usuario com os campos: nome, telefone, endereco, numero
 - Tabela Publicacao com os campos: texto, usuario associado, data, numero de likes
 - Tabela Comentario com os campos: publicacao associada, texto, data
+
+```shell
+@workspace #sym:### Exercicio 5 SQL por favor gere o código na linguagem SQL para o banco de dados SQL Server
+```
+
