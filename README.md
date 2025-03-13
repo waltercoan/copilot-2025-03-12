@@ -105,3 +105,71 @@ O programa deve ser composto pelos seguintes recursos:
 3. Classe para iniciar o programa e gerenciar o caixa.
 4. Classe principal que gerencia o fluxo do caixa e interage com o operador.
 ```
+
+### Exercicio 7 prompts
+```shell
+Neste programa, crie as classes RG, Pessoa, Professor e Aluno, que herdarão atributos e métodos da
+classe abstrata Pessoa.
+A – Criando a classe RG
+• Crie uma classe chamada RG, com os atributos privados numero do tipo int e dataNasc do tipo String;
+• Crie os métodos get e set para cada atributo;
+• Crie um construtor que receba um parâmetro do tipo int e um do tipo String, e os atribua a seus
+respectivos atributos;
+B – Criando a classe Pessoa
+Crie uma classe abstrata chamada Pessoa com os seguintes atributos:
+• nome do tipo String;
+• idade do tipo int;
+• sexo do tipo char;
+• rg do tipo construido RG.
+Crie os métodos get e set para cada atributo;
+Crie um construtor que receba os parâmetros a seguir e os atribua a seus respectivos atributos:
+• nome do tipo String;
+• idade do tipo int;
+• sexo do tipo char;
+• rg do tipo construido RG.
+Crie dois métodos abstratos e nomeie-os como: falar() - que receba o parâmetro fala do tipo String, e crie,
+também, o método mostrarDados();
+C – Criando a classe Professor
+Crie uma classe com o nome Professor, que deve ser subclasse de Pessoa;
+Declare os atributos privados salario - do tipo float - e disciplina do tipo String;
+Crie os métodos get e set para cada atributo;
+Crie um construtor que receba os seguintes parâmetros:
+• nome do tipo String;
+• idade do tipo int;
+• sexo do tipo char;
+• numeroRG do tipo int;
+• dataNasc do tipo String;
+• salario do tipo float;
+• disciplina do tipo String.
+Dentro do construtor, a partir do mecanismo de herança entre classes, passe os parâmetros nome, idade e o
+parâmetros numeroRG e dataNasc;
+Atribua os parâmetros salario e disciplina a seus respectivos atributos;
+Implemente o método abstrato falar() e, dentro dele, imprima uma frase contendo o atributo nome da pessoa e
+o valor do parâmetro informado;
+Implemente o método abstrato mostrarDados() e, dentro dele, imprima todos os atributos da classe e da
+superclasse;
+D – Criando a classe Aluno
+Crie uma classe com o nome Aluno, que deve ser subclasse de Pessoa;
+Declare os atributos privados mensalidade, do tipo float, e curso, do tipo String;
+Crie os métodos get e set para cada atributo;
+Crie um construtor que receba os seguintes parâmetros:
+• nome do tipo String;
+• idade do tipo int;
+• sexo do tipo char;
+• numeroRG do tipo int;
+• dataNasc do tipo String;
+• mensalidade do tipo float;
+• curso do tipo String.
+Dentro do construtor, a partir do mecanismo de herança entre classes, passe os parâmetros nome, idade e o
+parâmetros numeroRG e dataNasc;
+Atribua os parâmetros mensalidade e curso a seus respectivos atributos;
+Implemente o método abstrato falar() e, dentro dele, imprima uma frase contendo o atributo nome da pessoa e
+o valor do parâmetro informado;
+Implemente o método abstrato mostrarDados() e, dentro dele, imprima todos os atributos da classe e da
+superclasse;
+E – Testando todas as classes criadas
+• Crie três objetos do tipo Pessoa. Para dois objetos, utilize o construtor da classe Aluno e, para o outro,
+utilize o construtor da classe Professor, passando os devidos parâmetros;
+• Utilize o método falar() com cada objeto e, depois, mostre os dados de cada objeto com o método
+mostrarDados();
+```
