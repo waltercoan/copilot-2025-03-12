@@ -72,9 +72,11 @@ public class Game extends JFrame {
 
         if (nextCell.getCellType() == CellType.FOOD) {
             snake.grow();
+            nextCell.setCellType(CellType.SNAKE_NODE);
             board.generateFood();
         } else {
             snake.move(nextCell);
+            nextCell.setCellType(CellType.SNAKE_NODE);
         }
     }
 
