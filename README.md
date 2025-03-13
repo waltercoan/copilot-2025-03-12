@@ -285,4 +285,6 @@ projeto funcione adequadamente.
 JFrame, diferentes elementos, como rótulos, campos de texto e botões, podem ser adicionados. Esses elementos
 no JFrame criam a interface gráfica do usuário.O JFrame também é conhecido como contêiner de nível superior
 Swing. Swing refere-se ao kit de ferramentas do widget da GUI para criar aplicativos em JAVA. "
+
+@workspace gere o código necessário para movimentar a Snake no jogo
 ```
